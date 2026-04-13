@@ -1,4 +1,4 @@
-# applogs — Apache Log Analyzer
+# Logrix — Apache Log Analyzer
 
 CLI tool for analyzing Apache logs. Displays errors, statistics and real-time activity from the terminal.
 
