@@ -68,3 +68,13 @@ The uninstaller will ask for confirmation before removing anything. It deletes t
 - Linux or Windows
 - Apache installed (Standard, XAMPP, Laragon or other)
 - Rust 1.70 or higher to compile
+
+---
+
+## License
+
+MIT Non-Commercial. Free to use, modify and distribute for non-commercial purposes.
+Commercial use requires written permission from the author.
+Attribution required in all public use or derivative work.
+
+Copyright (c) 2026 Pedro Sanchez — https://github.com/pasanchezdev
