@@ -1,4 +1,4 @@
-# applogs
+# applogs — Apache Log Analyzer
 
 CLI tool for analyzing Apache logs. Displays errors, statistics and real-time activity from the terminal.
 
@@ -6,8 +6,16 @@ CLI tool for analyzing Apache logs. Displays errors, statistics and real-time ac
 
 ## Installation
 
+**Linux / macOS**
+
 ```bash
 curl -sSf https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/install.sh | sh
+```
+
+**Windows — PowerShell**
+
+```powershell
+irm https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/install.ps1 | iex
 ```
 
 The script handles everything: installs Rust if not present, compiles applogs and makes it available as a global command. Once done, it launches the initial setup automatically.
