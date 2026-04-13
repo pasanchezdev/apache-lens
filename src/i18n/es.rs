@@ -1,0 +1,25 @@
+use crate::i18n::messages::Messages;
+
+pub const ES: Messages = Messages {
+    welcome:          "¡Bienvenido a la configuración de applogs!",
+    select_install:   "¿Cómo instalaste Apache?",
+    install_standard: "Estándar",
+    install_laragon:  "Laragon",
+    install_xampp:    "XAMPP",
+    install_other:    "Otro",
+    select_os:        "¿Qué sistema operativo usas?",
+    os_linux:         "Linux",
+    os_windows:       "Windows",
+    path_set:         "Ruta configurada:",
+    config_saved:     "Configuración guardada. ¡Ya puedes usar applogs!",
+    invalid_option:   "Opción inválida, intenta de nuevo.",
+    path_not_found:   "No se encontró el archivo en esa ruta. Intenta de nuevo.",
+    searching:        "Buscando instalación de Apache...",
+    found:            "Archivo encontrado:",
+    not_found_auto:   "No se encontró automáticamente. Ingresa la ruta manualmente.",
+    use_this_path:    "¿Usar esta ruta? [S/n]",
+    multiple_found:   "Se encontraron varios archivos. Selecciona uno:",
+    select_number:    "Ingresa el número o 0 para escribir la ruta manualmente.",
+    enter_manually:   "Ruta del archivo de log",
+    prompt:           " > ",
+};
