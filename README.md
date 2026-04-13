@@ -9,7 +9,7 @@ CLI tool for analyzing Apache logs. Displays errors, statistics and real-time ac
 **Linux / macOS**
 
 ```bash
-curl -sSf https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/install.sh | sh
+curl -sSf https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/install.sh -o install.sh && sh install.sh
 ```
 
 **Windows — PowerShell**
