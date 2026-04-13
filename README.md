@@ -45,6 +45,24 @@ Streams each new log entry as Apache writes it. Stop with Ctrl+C.
 
 ---
 
+## Uninstall
+
+**Linux / macOS**
+
+```bash
+curl -sSf https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/uninstall.sh -o uninstall.sh && sh uninstall.sh
+```
+
+**Windows — PowerShell**
+
+```powershell
+irm https://raw.githubusercontent.com/pasanchezdev/apache-lens/main/uninstall.ps1 | iex
+```
+
+The uninstaller will ask for confirmation before removing anything. It deletes the binary and all configuration files, leaving no trace on the system.
+
+---
+
 ## Requirements
 
 - Linux or Windows
